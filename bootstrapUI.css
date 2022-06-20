@@ -1,0 +1,92 @@
+body{
+    padding: 0%;
+    margin: 0px;
+    overflow-x: hidden;
+}
+.navbar-brand{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    color: lightcoral;
+}
+.nav-link{
+    margin: 15px;
+    font-size: 16px;
+}
+.nav-link:hover{
+    color:rgb(23, 212, 23);
+}
+.active .nav-link{
+    color:rgb(146, 219, 146);    
+}
+.menu-right-btn{
+    padding: 13px 46px;
+    margin: 4%;
+    background-color:transparent;
+    transition:all 300ms ease-in;
+}
+.menu-right-btn:hover{
+   background-color:aqua;
+   color:white;
+}
+.site-content{
+    background-image:url(images/image2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.site-title, .site-desc{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.site-title{
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 50px;
+    text-align: center;
+}
+.site-desc{
+    font-size: 16px;
+    text-align: center;
+    padding-left: 2%;
+}
+.site-btn1{
+    margin: 6%;
+    margin-bottom: 30%;
+    margin-left: 20%;
+    background-color:black;
+    color:antiquewhite;
+}
+.site-btn2{
+    margin-top: 6%;
+    margin-bottom: 30%;
+    background-color: bisque;
+}
+.section-1 .para-1{
+    margin-top: 2%;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom:4%;
+}
+.section-1 .card-text .para-1{
+       color: black;
+}
+.section-1{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.section-1 .card{
+    width:20rem;
+}
+
+.section-2 .container-fluid{
+    background-image:url(images/image3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section-2 .heading1{
+    margin-top: 15%;
+    margin-bottom: 4%;
+    width: 80%;
+    margin-left: 35%;
+    color: antiquewhite;
+}
